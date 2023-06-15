@@ -6,8 +6,6 @@ API acts as an intermediary between a device and a server:
 - The __user device__ requests some data, and then the request is sent to the __server__ via an API.
 - The __server__ then retrieves that data, interprets it, performs the necessary actions, and sends it back to the __user device__ via an API.
 
-<br>
-
 ### Note: API testing differs from regular testing or bug hunts:
 - You will not be using a web browser or mobile device for testing.
 - You will use specialized client applications like __Postman__, where all requests to the customer’s server are sent by you directly, and not from a web page.
