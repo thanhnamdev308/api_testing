@@ -38,11 +38,11 @@ The __client__ submits an __HTTP request__ message to the server. The __server__
 - __URL structure__: protocol://hostname:port/path-and-resource-name.
 - __Request Headers__: contains operating parameters of HTTP transmission.
 
-<img src="requestheader.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%;" />
+<img src="requestheader.png" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" />
 
 - __Response Headers__: 
 
-<img src="responseheader.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%;" />
+<img src="responseheader.png" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" />
 
 - There are dozens of other possible request and response headers. Many of them are self-explanatory, others must be looked up.
 
