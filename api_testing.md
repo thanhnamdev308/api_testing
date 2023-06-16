@@ -16,7 +16,7 @@ __Hypertext Transfer Protocol (HTTP)__ is the foundation of data communication f
 
 The __client__ submits an __HTTP request__ message to the server. The __server__ returns a __HTTP response__ message to the __client__.
 
-![HTTP](HTTP.png)
+<img src="HTTP.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%;" />
 
 ### Type of HTTP Requests:
 - __GET__: Get some information
@@ -38,11 +38,11 @@ The __client__ submits an __HTTP request__ message to the server. The __server__
 - __URL structure__: protocol://hostname:port/path-and-resource-name.
 - __Request Headers__: contains operating parameters of HTTP transmission.
 
-![Request Header example](requestheader.png)
+<img src="requestheader.png" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" />
 
 - __Response Headers__: 
 
-![Response Header example](responseheader.png)
+<img src="responseheader.png" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" />
 
 - There are dozens of other possible request and response headers. Many of them are self-explanatory, others must be looked up.
 
