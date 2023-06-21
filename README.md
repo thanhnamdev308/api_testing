@@ -33,12 +33,13 @@ The __client__ submits an __HTTP request__ message to the server. The __server__
 - __4XX__: Client error responses.
 - __5XX__: Server error responses.
 
-__Most Common HTTP Response codes:__
+__Most common HTTP Response codes:__
+
 `200 OK` - The request succeeded.
 
 `204 No Content` - The request succeeded but there is no content to send for this request.
 
-`400 Bad Request` - Missing data, domain validation, and invalid formatting are some examples that cause the status code 400 to be sent.
+`400 Bad Request` - Missing data, domain validation, and invalid formatting might cause the status code 400 to be sent.
 
 `404 Not Found` - The request is valid, but the resource cannot be found on the server.
 
