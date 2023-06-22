@@ -27,11 +27,27 @@ The __client__ submits an __HTTP request__ message to the server. The __server__
 - __OPTIONS__: Get list of allowed HTTP requests
 
 ### HTTP Responses explain:
-- __1XX__: Hold on...
-- __2XX__: Here you go, everything is good
-- __3XX__: You don't have permission to access
-- __4XX__: Something wrong in your side
-- __5XX__: Something wrong in the website side
+- __1XX__: Informational responses.
+- __2XX__: Successful responses.
+- __3XX__: Redirection messages.
+- __4XX__: Client error responses.
+- __5XX__: Server error responses.
+
+__Most common HTTP Response codes:__
+
+`200 OK` - The request succeeded.
+
+`204 No Content` - The request succeeded but there is no content to send for this request.
+
+`400 Bad Request` - Missing data or invalid formatting of the request might cause the status code 400 to be sent.
+
+`404 Not Found` - The request is valid, but the resource cannot be found on the server.
+
+`500 Internal Server Error` - An unexpected issue happened to the server.
+
+`502 Bad Gateway` - The server got an invalid response.
+
+More at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 ### Some more keyword we will meet when working with HTTP:
 (Don't need to remember, see again when needed)
