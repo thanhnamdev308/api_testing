@@ -74,3 +74,14 @@ With __Postman__, we can create HTTP Requests and send them to other website's s
 We can also create Collections of Requests and handle Authorization while sending HTTP Requests with Postman.
 
 Other tools for API Testing: SoapUI, GraphQL, Swagger UI,...
+
+# Types of API and API Architecture
+__Types of API:__
+- __Public API__: API that can be used by anybody on the Internet.
+- __Private API__: API that can only be used internally within the company.
+- __Partner API__: API that can be used internally within the company and partners.
+- __Composite API__: combines different types of API for specific uses.
+
+__Types of API Architecture:__
+- __REST API__: most popular API architecture on the Internet.
+- __SOAP API__, __RPC API__: other API architectures which are designed for specific uses (Example: SOAP provides more secure APIs, RPC provides APIs that contain data in specific format like XML or JSON).
