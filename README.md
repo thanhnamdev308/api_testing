@@ -33,6 +33,13 @@ The __client__ submits an __HTTP request__ message to the server. The __server__
 - __4XX__: Client error responses.
 - __5XX__: Server error responses.
 
+### In an easy-to-understand way:
+- __1XX__ - Hold on...
+- __2XX__ - Here you go (success)
+- __3XX__ - You don't have permission to access
+- __4XX__ - You screwed up (maybe your connection is bad)
+- __5XX__ - The website screwed up (maybe host connection is bad)
+
 __Most common HTTP Response codes:__
 
 `200 OK` - The request succeeded.
